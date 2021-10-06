@@ -154,7 +154,7 @@ input.checkbox
 
     border-radius: 3px;
     border: 1px solid tomato;
-    width: 300px;
+    width: 150px;
     height: 30px;
     text-decoration: none;
     margin-left: 10px;
@@ -195,12 +195,12 @@ input.checkbox
 
   .popup {
     border: 2px solid tomato;
-    margin: 200px  auto;
+    margin: 300px 590px auto;
     padding: 40px;
     background: #fff;
     border-radius: 5px;
     height:100px;
-    width: 350px;
+    width: 200px;
     position: relative;
     transition: all 5s ease-in-out;
     text-align: center;
