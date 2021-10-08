@@ -249,7 +249,7 @@ input.checkbox
         font-family: Arial;
         margin-top: 10px;
         margin-left: -2px;
-        font-size: 20px;
+        font-size: 17px;
         font-weight: bold;
     }
     
@@ -274,7 +274,7 @@ input.checkbox
     
     
     
-    
+   /* 
     .plus
     {
         border: 0px solid;
@@ -289,7 +289,7 @@ input.checkbox
         font-size: 30px;
         color: white;
     }
-    
+    */
       .parent
     {
         border: 2px solid tomato;
@@ -321,8 +321,8 @@ input.checkbox
         width: 160px;
         border-top: 3px solid red;
         left: 20px;
-        top:101px;
-    }
+        top: 98px;
+        }
     
     .trip
     {
@@ -433,7 +433,7 @@ input.checkbox
      }
     }
 
-    @media screen and (min-width:330px) and (max-width:604px) {
+    @media screen and (min-width:330px) and (max-width:359px) {
 
         h1 {
             font-family: sans-serif;
@@ -540,7 +540,7 @@ input.checkbox
             width: 160px;
             border-top: 3px solid red;
             left: 20px;
-            top:101px;
+            top:95px;
         }
         
         .trip
