@@ -8,33 +8,75 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class='main'>
-        <div class='p'>
-           <b style="font-family:Arial, Helvetica, sans-serif;font-size: 35px;">Tasks</b> <span class='text' style="font-size: 35px;"> Lists </span></div>
-        <div class='plus'>
-            <a style="text-decoration: none; color: white;" href="#addnew" >&#43;</a> 
-        </div>
-     <div class="alldiv triptoparis">  
-     <a href="trip.html" class="tripp">Trip to Paris</a>
-       </div> 
-     <div class="alldiv todo2">  
-      My Todo List 2</div> 
-     <div class="alldiv todo3">  
-      My Todo List 3</div>
-     <div class="alldiv todo4">  
-      My Todo List 4</div>
-     <div class="alldiv todo5">  
-      My Todo List 5</div>  
 
-      <div id="addnew" class="overlay">
+<div class='main'>
+    <div class='p'>
+       <b style="font-family:Arial, Helvetica, sans-serif">Tasks</b> <span class='text'> Lists </span></div>
+    <div class='plus'>
+        <a style="text-decoration: none; color: white;" href="#addnew" >&#43;</a> 
+    </div>
+
+    <div class='listtext'> Add List</div> 
+    
+       <br> <br>
+       <div class='parent child1'>
+           <br>
+           <span class='trip'> <a href="./trip_1.html" class="tripp"> Trip to Paris </a> </span> <hr class="hr1"> <br>
+           <span class='strike'>Completed Task</span>
+           <span class='strike1'> </span>
+            <br> <br> 
+           <input class='checkbox' type="checkbox" name="task1" id="task1">
+           <label class="pending" for="task1">Pending Task</label>
+       </div>  
+       <div class='parent child2'>
+           <br>
+        <span class='trip'> My Todo list </span> <hr class="hr2"> <br>
+        <span class='strike'>Completed Task</span> 
+        <span class='strike2'> </span>
+        <br> <br>
+        <input class="checkbox" type="checkbox" name="task2" id="task2">
+        <label class="pending" for="task1">Pending Task</label>
+        </div>
+    <div class='parent child3'>
+        <br>
+        <span class='trip'> My Todo list </span> <hr class="hr3"> <br>
+        <span class='strike'>Completed Task</span> 
+        <span class='strike3'> </span>
+        <br> <br>
+        <input class="checkbox" type="checkbox" name="task3" id="task2"> 
+        <label class="pending" for="task1">Pending Task</label>
+    </div>   
+    <div class='parent child4'>
+        <br>
+        <span class='trip'> My Todo list </span> <hr class="hr4"> <br>
+        <span class='strike'>Completed Task</span> 
+        <span class='strike4'> </span>
+        <br> <br>
+        <input class="checkbox" type="checkbox" name="task3" id="task2"> 
+        <label class="pending" for="task1">Pending Task</label>
+    </div> 
+
+    <div class='parent child5'>
+        <br>
+        <span class='trip'> My Todo list </span> <hr class="hr5"> <br>
+        <span class='strike'>Completed Task</span> 
+        <span class='strike5'> </span>
+        <br> <br>
+        <input class="checkbox" type="checkbox" name="task3" id="task2"> 
+        <label class="pending" for="task1">Pending Task</label>
+    </div> 
+
+    <div id="addnew" class="overlay">
         <div class="popup">
             <p class="newlist">Add New List</p> <br> <br>
             <textarea class="area" name="" id="" cols="30" rows="10"></textarea> <br>
              <button class="button "type="submit">ADD</button>
-            
+             <a class="close" href="#">&times;</a>
         </div>
-                                         
-    
-        
+   
+
+  </div>
+
+
 </body>
 </html>

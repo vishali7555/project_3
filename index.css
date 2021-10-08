@@ -1,36 +1,35 @@
 body
 {
-  background-color:rgb(223, 221, 221);
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(199, 187, 187);
 }
-
 .p
 {
-    
-    margin-top: -70px;
-    margin-left: -80px;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-left: 200px;
 }
 
 .main{
 
-    margin-top: 100px;
-    margin-left: 560px;
-    background-color : white;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
     padding: 100px;
-    width: 130px;
-    height:360px;
-
+    width: 1250px;
+    height:500px;
+    overflow-y: auto;
    
 }
 
 .text
 {
-    font-family: sans-serif;
+    font-family: arial;
     font-stretch: ultra-condensed;
     color: darkgray;
-    
+   
 }
-
-
 
 
 .plus
@@ -40,108 +39,181 @@ body
     height: 33px;
     width: 33px;
     border-radius: 25px;
-    margin-top: -35px;
-    margin-left: 150px;
+    margin-top: -40px;
+    margin-left: 850px;
     text-align: center;
     font-weight: bolder;
     font-size: 30px;
     color: white;
 }
 
-.alldiv
+.listtext
 {
-    height: 50px;
-    width: 240px;
-    margin-left: -80px;
-    margin-top: 40px;
-    border-radius: 10px;
-    border:1px solid rgb(216, 205, 205);
-    box-shadow: 7px 6px rgb(211, 204, 204);
-    display: inline-block;
-    font-size: 20px;
-    font-family: sans-serif;
+    font-family: arial;
     font-stretch: ultra-condensed;
     color: darkgray;
-    line-height: 20px;
-    word-wrap: break-word;
-    white-space: pre;
-    padding-top: 4px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-top: -35px;
+    margin-left: 900px;
+    display: block;
+    font-size: 30px;
 }
 
+.parent
+{
+    border: 2px solid tomato;
+    height: 300px;
+    width: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 200px;
+    box-shadow: 7px 6px rgb(211, 204, 204);
+}
+
+.child2
+{
+    margin-left: 100px;
+}
+
+.child3
+{
+    margin-left: 100px ;
+}
+
+.child4
+{
+    margin-left: 350px ;
+    margin-top: 20px;
+}
+
+.child5
+{
+    margin-left: 100px ;
+    margin-top: 20px;
+}
+
+.hr1
+{
+    margin-left: 40px;
+}
+
+.hr2
+{
+    margin-left: 40px;
+}
+.hr3
+{
+    margin-left: 40px;
+}
+.hr4
+{
+    margin-left: 40px;
+}
+.hr5
+{
+    margin-left: 40px;
+}
+.strike
+{
+    color:  tomato;
+    /* text-decoration: 4px line-through;
+    text-decoration-color: red ; */
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.strike1
+{
+    width: 160px;
+    border-top: 3px solid red;
+    left: 0px;
+    top: -22px;
+    position: relative;
+    display: inline-block;
+}
+
+.strike2
+{
+    width: 160px;
+    border-top: 3px solid red;
+    left: 0px;
+    top: -22px;
+    position: relative;
+    display: inline-block;
+}
+
+.strike3
+{
+    width: 160px;
+    border-top: 3px solid red;
+    left: 0px;
+    top: -22px;
+    position: relative;
+    display: inline-block;
+}
+
+.strike4
+{
+    width: 160px;
+    border-top: 3px solid red;
+    left: 0px;
+    top: -22px;
+    position: relative;
+    display: inline-block;
+}
+
+.strike5
+{
+    width: 160px;
+    border-top: 3px solid red;
+    left: 0px;
+    top: -22px;
+    position: relative;
+    display: inline-block;
+}
+
+.trip
+{
+    font-family: arial;
+    font-stretch: ultra-condensed;
+    color: tomato;
+    font-size: 30px;
+    text-decoration: none;
+}
 .tripp
 {
-  text-decoration: none;
-  font-size: 20px;
-  font-family: sans-serif;
-  font-stretch: ultra-condensed;
-  color: darkgray;
-}
-
-.todo2
-{
-    margin-top: 30px;
-}
-
-.todo3
-{
-    margin-top: 30px;
-}
-.todo4
-{
-    margin-top: 30px;
-}
-.todo5
-{
-    margin-top: 30px;
-}
-
-.overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
-    visibility: hidden;
-    opacity: 0;
-  }
-  .overlay:target {
-    visibility: visible;
-    opacity: 1;
-  }
-
-
-  .popup {
-    border: 2px solid tomato;
-    margin: 300px 590px auto;
-    padding: 40px;
-    background: #fff;
-    border-radius: 5px;
-    height:100px;
-    width: 200px;
-    position: relative;
-    transition: all 5s ease-in-out;
-    text-align: center;
-  }
-
- .newlist{
-    margin: -10px  auto;
-     text-align: center;
-     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: arial;
+    font-stretch: ultra-condensed;
     color: tomato;
- }
+    font-size: 30px;
+    text-decoration: none; 
+}
+input.checkbox
+{
+    font-size: 70px;
+    margin-left: -40px;
+    width: 20px;
+    height: 20px;
+}
+
+.pending
+{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
 
 
- .area{
+
+
+.area{
 
     border-radius: 3px;
     border: 1px solid tomato;
-    width: 150px;
+    width: 300px;
     height: 30px;
     text-decoration: none;
     margin-left: 10px;
@@ -163,109 +235,6 @@ body
 
 }
 
-
-@media screen and (min-width:360px) and (max-width:640px) {
-
-    body
-{
-  background-color:rgb(223, 221, 221);
-}
-
-.p
-{
-    
-    margin-top: -70px;
-    margin-left: -80px;
-}
-
-.main{
-
-    margin-top: 100px;
-    margin-left: 20px;
-    background-color : white;
-    padding: 100px;
-    width: 100px;
-    height:300px;
-
-   
-}
-
-.text
-{
-    font-family: sans-serif;
-    font-stretch: ultra-condensed;
-    color: darkgray;
-    
-}
-
-
-
-
-.plus
-{
-    border: 0px solid;
-    background-color: crimson;
-    height: 33px;
-    width: 33px;
-    border-radius: 25px;
-    margin-top: -35px;
-    margin-left: 120px;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 30px;
-    color: white;
-}
-
-.alldiv
-{
-    height: 40px;
-    width: 230px;
-    margin-left: -80px;
-    margin-top: 40px;
-    border-radius: 10px;
-    border:1px solid rgb(216, 205, 205);
-    box-shadow: 7px 6px rgb(211, 204, 204);
-    display: inline-block;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-stretch: ultra-condensed;
-    color: darkgray;
-    line-height: 13px;
-    word-wrap: break-word;
-    white-space: pre;
-    padding-top: 4px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.tripp
-{
-  text-decoration: none;
-  font-size: 20px;
-  font-family: sans-serif;
-  font-stretch: ultra-condensed;
-  color: darkgray;
-}
-
-.todo2
-{
-    margin-top: 30px;
-}
-
-.todo3
-{
-    margin-top: 30px;
-}
-.todo4
-{
-    margin-top: 30px;
-}
-.todo5
-{
-    margin-top: 30px;
-}
-
 .overlay {
     position: fixed;
     top: 0;
@@ -285,182 +254,12 @@ body
 
   .popup {
     border: 2px solid tomato;
-    margin: 250px 40px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    height:120px;
-    width: 200px;
-    position: relative;
-    transition: all 5s ease-in-out;
-    text-align: center;
-  }
-
- .newlist{
-    margin: -10px  auto;
-     text-align: center;
-     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: tomato;
- }
-
-
- .area{
-
-    border-radius: 3px;
-    border: 1px solid tomato;
-    width: 150px;
-    height: 30px;
-    text-decoration: none;
-    margin-left: 10px;
-
-}
-
-.button
-{
-    position: absolute;
-    border-radius: 30px;
-    background-color: orangered;
-    color: white;
-    width: 75px;
-    height: 41px;
-    font-size: 20px;
-    border-color: snow;
-    text-align: center;
-    margin-left: -30px;
-
-}
-
-}
-
-
-@media screen and (min-width:330px) and (max-width:604px) {
-
-    body
-{
-  background-color:rgb(223, 221, 221);
-}
-
-.p
-{
-    
-    margin-top: -70px;
-    margin-left: -80px;
-}
-
-.main{
-
-    margin-top: 80px;
-    margin-left: 20px;
-    background-color : white;
-    padding: 100px;
-    width: 80px;
-    height:300px;
-
-   
-}
-
-.text
-{
-    font-family: sans-serif;
-    font-stretch: ultra-condensed;
-    color: darkgray;
-    
-}
-
-
-
-
-.plus
-{
-    border: 0px solid;
-    background-color: crimson;
-    height: 33px;
-    width: 33px;
-    border-radius: 25px;
-    margin-top: -35px;
-    margin-left: 118px;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 30px;
-    color: white;
-}
-
-.alldiv
-{
-    height: 40px;
-    width: 200px;
-    margin-left: -80px;
-    margin-top: 30px;
-    border-radius: 10px;
-    border:1px solid rgb(216, 205, 205);
-    box-shadow: 7px 6px rgb(211, 204, 204);
-    display: inline-block;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-stretch: ultra-condensed;
-    color: darkgray;
-    line-height: 10px;
-    word-wrap: break-word;
-    white-space: pre;
-    padding-top: 4px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.tripp
-{
-  text-decoration: none;
-  font-size: 20px;
-  font-family: sans-serif;
-  font-stretch: ultra-condensed;
-  color: darkgray;
-}
-
-.todo2
-{
-    margin-top: 30px;
-}
-
-.todo3
-{
-    margin-top: 30px;
-}
-.todo4
-{
-    margin-top: 30px;
-}
-.todo5
-{
-    margin-top: 30px;
-}
-
-.overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
-    visibility: hidden;
-    opacity: 0;
-  }
-  .overlay:target {
-    visibility: visible;
-    opacity: 1;
-  }
-
-
-  .popup {
-    border: 2px solid tomato;
-    margin: 210px 60px auto;
+    margin: 200px  auto;
     padding: 40px;
     background: #fff;
     border-radius: 5px;
     height:100px;
-    width: 100px;
+    width: 350px;
     position: relative;
     transition: all 5s ease-in-out;
     text-align: center;
@@ -470,37 +269,327 @@ body
     margin: -10px  auto;
      text-align: center;
      font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     color: tomato;
  }
 
+ @media screen and (min-width:362px) and (max-width:640px) {
 
- .area{
-
-    border-radius: 3px;
-    border: 1px solid tomato;
-    width: 100px;
-    height: 30px;
-    text-decoration: none;
-    margin-left: 4px;
-
-}
-
-.button
+    body {
+        margin-top: 10px;
+        margin-left: 10px;
+        background-color: rgb(199, 187, 187);
+    }
+    
+    
+    .p {
+        font-size: 25px;
+       margin-top: -20px;
+       margin-left: -27px;
+    }
+    .main {
+        margin-top: 50px;
+        margin-left: 30px;
+        background-color: white;
+        padding: 70px;
+        width: 150px;
+        height: 320px;
+        overflow-y: unset;
+    }
+    
+    .text
+    {
+        font-family: arial;
+        font-stretch: ultra-condensed;
+        color: darkgray;
+    }
+    
+    
+    .plus {
+        border: 0px solid;
+        background-color: crimson;
+        height: 30px;
+        width: 30px;
+        border-radius: 25px;
+        margin-top: -30px;
+        margin-left: 150px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 30px;
+        color: white;
+    }
+    
+    .listtext
+    {
+        font-family: arial;
+        font-stretch: ultra-condensed;
+        color: darkgray;
+        margin-top: -35px;
+        margin-left: 900px;
+        display: none;
+        font-size: 30px;
+    }
+    
+    .parent {
+        height: 40px;
+        width: 200px;
+        margin-left: -30px;
+        margin-top: -10px;
+        border-radius: 10px;
+        border: 1px solid rgb(216, 205, 205);
+        box-shadow: 7px 6px rgb(211 204 204);
+        display: inline-block;
+        font-size: 20px;
+        box-shadow: 7px 6px rgb(211 204 204);
+        display: inline-block;
+        font-size: 20px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .child2
+    {
+        margin-left: -30px;
+        margin-top: -20px;
+    }
+    
+    .child3
+    {
+        margin-left: -30px ;
+        margin-top: -20px;
+    }
+    
+    .child4
+    {
+        margin-left: -30px ;
+        margin-top: -20px;
+    }
+    
+    .child5
+    {
+        margin-left: -30px ;
+        margin-top: -20px;
+    }
+    
+    .hr1
 {
-    position: absolute;
-    border-radius: 30px;
-    background-color: orangered;
-    color: white;
-    width: 75px;
-    height: 30px;
-    font-size: 20px;
-    border-color: snow;
-    text-align: center;
-    margin-left: -30px;
-
+    margin-left: 40px;
+    display: none;
 }
 
+.hr2
+{
+    margin-left: 40px;
+    display: none;
 }
-
-
+.hr3
+{
+    margin-left: 40px;
+    display: none;
+}
+.hr4
+{
+    margin-left: 40px;
+    display: none;
+}
+.hr5
+{
+    margin-left: 40px;
+    display: none;
+}
+    .strike
+    {
+        color:  tomato;
+        /* text-decoration: 4px line-through;
+        text-decoration-color: red ; */
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        display:none;
+        
+    }
+    
+    .strike1
+    {
+        width: 160px;
+        border-top: 3px solid red;
+        left: 0px;
+        top: -22px;
+        position: relative;
+        display: none;
+    }
+    
+    .strike2
+    {
+        width: 160px;
+        border-top: 3px solid red;
+        left: 0px;
+        top: -22px;
+        position: relative;
+        display: none;
+    }
+    
+    .strike3
+    {
+        width: 160px;
+        border-top: 3px solid red;
+        left: 0px;
+        top: -22px;
+        position: relative;
+        display: none;
+    }
+    
+    .strike4
+    {
+        width: 160px;
+        border-top: 3px solid red;
+        left: 0px;
+        top: -22px;
+        position: relative;
+        display: none;
+    }
+    
+    .strike5
+    {
+        width: 160px;
+        border-top: 3px solid red;
+        left: 0px;
+        top: -22px;
+        position: relative;
+        display: none;
+    }
+    
+    .trip
+    {
+        
+        font-size: 20px;
+        font-family: sans-serif;
+      font-stretch: ultra-condensed;
+        color: darkgray;
+        line-height: 20px;
+       word-wrap: break-word;
+       white-space: pre;
+       padding-top: 4px;
+    }
+    .tripp {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: sans-serif;
+      font-stretch: ultra-condensed;
+        color: darkgray;
+        line-height: 20px;
+       word-wrap: break-word;
+       white-space: pre;
+       padding-top: 4px;
+    }
+    input.checkbox
+    {
+        font-size: 70px;
+        margin-left: -40px;
+        width: 20px;
+        height: 20px;
+        display: none;
+    }
+    
+    .pending
+    {
+       
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        display: none;
+    }
+    
+    
+    
+    
+    .area{
+    
+        border-radius: 3px;
+        border: 1px solid tomato;
+        width: 300px;
+        height: 30px;
+        text-decoration: none;
+        margin-left: 10px;
+    
+    }
+    
+    .button
+    {
+        position: absolute;
+        border-radius: 30px;
+        background-color: orangered;
+        color: white;
+        width: 75px;
+        height: 41px;
+        font-size: 20px;
+        border-color: snow;
+        text-align: center;
+        margin-left: -30px;
+    
+    }
+    
+    .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        transition: opacity 500ms;
+        visibility: hidden;
+        opacity: 0;
+      }
+      .overlay:target {
+        visibility: visible;
+        opacity: 1;
+      }
+    
+    
+      .popup {
+        border: 2px solid tomato;
+      margin: 200px 55px auto;
+       padding: 23px;
+      background: #fff;
+       border-radius: 5px;
+      height: 105px;
+      width: 200px;
+      position: relative;
+      text-align: center;
+}
+    
+     .newlist{
+        margin: -10px  auto;
+         text-align: center;
+         font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: tomato;
+     }
+    
+    
+     .area{
+    
+        border-radius: 3px;
+        border: 1px solid tomato;
+        width: 150px;
+        height: 30px;
+        text-decoration: none;
+        margin-left: 10px;
+    
+    }
+    
+    .button
+    {
+        position: absolute;
+        border-radius: 30px;
+        background-color: orangered;
+        color: white;
+        width: 75px;
+        height: 41px;
+        font-size: 20px;
+        border-color: snow;
+        text-align: center;
+        margin-left: -30px;
+    
+    }
+    
+ }
