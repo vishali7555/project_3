@@ -202,7 +202,6 @@ input.checkbox
     height:100px;
     width: 200px;
     position: relative;
-    transition: all 5s ease-in-out;
     text-align: center;
   }
 
