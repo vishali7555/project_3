@@ -431,3 +431,225 @@ input.checkbox
         font-size: 20px;
         color: tomato;
      }
+    }
+
+    @media screen and (min-width:330px) and (max-width:604px) {
+
+        h1 {
+            font-family: sans-serif;
+            margin: 10px;
+            font-size: 20px;
+            position: relative;
+            font-style: Arial;
+          }
+         
+          body
+        {
+          background-color:rgb(223, 221, 221);
+        }
+        
+        
+        .home
+        {
+            border: 0px solid;
+            background-color: crimson;
+            height: 33px;
+            width: 33px;
+            border-radius: 25px;
+            margin-top: -120px;
+            margin-left: -50px;
+            font-size: 30px;
+            color: white;
+            display: inline-block;
+        }
+        
+        .text1
+        {
+            font-family: Arial;
+            margin-top: 10px;
+            margin-left: -2px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .main{
+        
+            margin-top: 100px;
+            margin-left: 6px;
+            background-color : white;
+            padding: 100px;
+            width: 100px;
+            height:300px;
+            padding-top: 50px;
+        }
+        
+        .text
+        {
+            font-family: sans-serif;
+            font-stretch: ultra-condensed;
+            color: darkgray;
+           
+        }
+        
+        
+        
+        
+        .plus
+        {
+            border: 0px solid;
+            background-color: crimson;
+            height: 33px;
+            width: 33px;
+            border-radius: 25px;
+            margin-top: -35px;
+            margin-left: 150px;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 30px;
+            color: white;
+        }
+        
+          .parent
+        {
+            border: 2px solid tomato;
+            height: 280px;
+            width: 200px;
+            display: inline-block;
+            border-radius: 10px;
+            text-align: center;
+            margin-left: -40px;
+            box-shadow: 7px 6px rgb(211, 204, 204);
+            position: relative;
+            
+        }
+        
+        
+        .strike
+        {
+            color:  tomato;
+           /* text-decoration: line-through;
+            text-decoration-color:solid red ; */
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .strike1
+        {
+            position: absolute;
+            width: 160px;
+            border-top: 3px solid red;
+            left: 20px;
+            top:101px;
+        }
+        
+        .trip
+        {
+            font-family: arial;
+            font-stretch: ultra-condensed;
+            color: tomato;
+            font-size: 25px;
+        
+        }
+        
+        input.checkbox
+        {
+            font-size: 70px;
+            margin-left: -40px;
+            width: 20px;
+            height: 20px;
+            font-weight: bold;
+        }
+        
+        .pending
+        {
+           
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        
+        .plus
+        {
+            border: 0px solid;
+            background-color: crimson;
+            height: 33px;
+            width: 33px;
+            border-radius: 25px;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 30px;
+            color: white;
+            display: inline-block;
+            position: relative;
+            bottom: -100px;
+            right: -5px;
+            
+        }
+        
+        
+        .area{
+        
+            border-radius: 3px;
+            border: 1px solid tomato;
+            width: 150px;
+            height: 30px;
+            text-decoration: none;
+            margin-left: 2px;
+        
+        }
+        
+        .button
+        {
+            position: absolute;
+            border-radius: 30px;
+            background-color: orangered;
+            color: white;
+            width: 75px;
+            height: 41px;
+            font-size: 20px;
+            border-color: snow;
+            text-align: center;
+            margin-left: -30px;
+        
+        }
+        
+        .overlay {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            transition: opacity 500ms;
+            visibility: hidden;
+            opacity: 0;
+          }
+          .overlay:target {
+            visibility: visible;
+            opacity: 1;
+          }
+        
+        
+          .popup {
+            border: 2px solid tomato;
+            margin: 250px 60px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            height:118px;
+            width: 150px;
+            position: relative;
+            transition: all 5s ease-in-out;
+            text-align: center;
+          }
+        
+         .newitem{
+            margin: -10px  auto;
+             text-align: center;
+             font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: tomato;
+         }
+        }
+    
+    
